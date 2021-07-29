@@ -61,7 +61,7 @@ const FileInputBase: ForwardRefRenderFunction<
   },
   ref
 ) => {
-  const toast = useToast();
+  const toast = useToast()
   const [progress, setProgress] = useState(0);
   const [isSending, setIsSending] = useState(false);
   const [cancelToken, setCancelToken] = useState<CancelTokenSource>(
